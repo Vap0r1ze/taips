@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "build": "turbo run build",
+    "publish": "turbo run publish"
+  },
+  "devDependencies": {
+    "node-jq": "^2.3.4",
+    "turbo": "latest"
+  },
+  "resolutions": {
+    "highlight.js@10.6.0": "patch:highlight.js@npm%3A10.6.0#./.yarn/patches/highlight.js-npm-10.6.0-a9435af1df.patch"
+  }
+}

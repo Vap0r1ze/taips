@@ -1,0 +1,9 @@
+{
+  "name": "@taips/moment",
+  "scripts": {
+    "build": "../../scripts/build.sh"
+  },
+  "devDependencies": {
+    "moment": "2.22.2"
+  }
+}

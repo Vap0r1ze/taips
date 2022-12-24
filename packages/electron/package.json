@@ -1,0 +1,9 @@
+{
+  "name": "@taips/electron",
+  "scripts": {
+    "build": "../../scripts/build.sh"
+  },
+  "devDependencies": {
+    "electron": "13.6.6"
+  }
+}

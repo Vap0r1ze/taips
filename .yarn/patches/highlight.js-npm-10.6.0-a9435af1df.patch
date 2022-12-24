@@ -1,0 +1,33 @@
+diff --git a/types/index.d.ts b/types/index.d.ts
+index 825ad72301ef47b21d58ce5841c03828724b270d..0b0b6dc60f6d027cb8d13a5a02b65ba6bd863641 100644
+--- a/types/index.d.ts
++++ b/types/index.d.ts
+@@ -5,9 +5,6 @@
+ 
+ /* Public API */
+ 
+-// eslint-disable-next-line
+-declare const hljs : HLJSApi;
+-
+ type HLJSApi = PublicApi & ModesAPI
+ 
+ interface VuePlugin {
+@@ -234,15 +231,15 @@ interface ModeDetails {
+ // declare module 'highlight.js/lib/highlight.js';
+ 
+ declare module 'highlight.js' {
+-    export = hljs;
++    export default HLJSApi;
+ }
+ 
+ declare module 'highlight.js/lib/core' {
+-    export = hljs;
++    export default HLJSApi;
+ }
+ 
+ declare module 'highlight.js/lib/core.js' {
+-    export = hljs;
++    export default HLJSApi;
+ }
+ 
+ declare module 'highlight.js/lib/languages/*' {

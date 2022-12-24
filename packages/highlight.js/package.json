@@ -1,0 +1,9 @@
+{
+  "name": "@taips/highlight.js",
+  "scripts": {
+    "build": "../../scripts/build.sh"
+  },
+  "devDependencies": {
+    "highlight.js": "10.6.0"
+  }
+}
