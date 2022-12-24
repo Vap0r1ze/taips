@@ -1,5 +1,6 @@
 {
   "name": "@taips/highlight.js",
+  "private": true,
   "scripts": {
     "build": "../../scripts/build.sh"
   },

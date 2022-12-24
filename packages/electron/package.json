@@ -1,5 +1,6 @@
 {
   "name": "@taips/electron",
+  "private": true,
   "scripts": {
     "build": "../../scripts/build.sh"
   },

@@ -31,4 +31,4 @@ done
 
 # Create package.json
 echo "Creating package.json"
-$JQ -s '.[0].version = .[1].version | .[0].types = (.[1].types // .[1].typings) | .[0]' package.json "$PKG/package.json" > "$DIST/package.json"
+$JQ -s '.[0].version = .[1].version | .[0].types = (.[1].types // .[1].typings) | .[0].private = false | .[0]' package.json "$PKG/package.json" > "$DIST/package.json"

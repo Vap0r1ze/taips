@@ -1,5 +1,6 @@
 {
   "name": "@taips/moment",
+  "private": true,
   "scripts": {
     "build": "../../scripts/build.sh"
   },
